@@ -1,0 +1,42 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #4282ba;
+  color: white;
+  padding: 1rem;
+  height: 75px;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+#logo{
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+}
